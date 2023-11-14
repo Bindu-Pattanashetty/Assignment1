@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewpoint" content="width=device-width,initial-scale=1">
+  <title>INTERNSHIP</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<h2 style="color:white;">Internships</h2>
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=poppins=100,200,300,400,500,600,700,800,900');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  background: #101615;
+}
+
+.box {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #010615;
+  margin: 40px;
+}
+
+.box:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -1;
+}
+
+.box:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -2;
+  filter: blur(40px);
+}
+
+.box:nth-child(1):before,
+.box:nth-child(1):after {
+  background: linear-gradient(235deg, #89ff00, #fff, #00bcd4);
+
+}
+
+.box:nth-child(2):before,
+.box:nth-child(2):after {
+  background: linear-gradient(235deg, #ff005e, #fff, #fbff00);
+}
+
+.box:nth-child(3):before,
+.box:nth-child(3):after {
+  background: linear-gradient(235deg, #772aff, #fff, #2196F3);
+}
+
+.box.glass {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: block;
+  background: rgba(225, 225, 225, 0.5);
+  pointer-events: none;
+}
+
+.box.content {
+  padding: 20px;
+  color: #010615;
+}
+</style>
+
+<body>
+  <div class="box">
+    <div class="glass"></div>
+    <div class="content">
+      <h2><mark>WEB DEVELOPMENT INTERNSHIP PROGRAM</mark></h2>
+      <p>
+        <li><mark>Duration : 1 month/2months</mark></li>
+        <li><mark>Location :virtual</mark></li>
+        <li><mark>Stipend:-</mark></li>
+        <li><mark>Start date:05/11/2023</mark></li>
+      </p>
+      <button class="button">view details</button>
+    </div>
+  </div>
+  <div class="box">
+    <div class="glass"></div>
+    <div class="content">
+      <h2><mark>APP DEVELOPMENT INTERNSHIP PROGRAM</mark></h2>
+
+      <li><mark>Duration : 1 month/2months</mark></li>
+      <li><mark>Location :virtual</mark></li>
+      <li><mark>Stipend:-</mark></li>
+      <li><mark>Start date:05/11/2023</mark></li>
+
+      <button class="button">view details</button>
+    </div>
+  </div>
+  <div class="box">
+    <div class="glass"></div>
+    <div class="content">
+      <h2><mark>PYTHON PROGRAMMING INTERNSHIP PROGRAM</mark></h2>
+
+      <li><mark>Duration : 1 month/2months</mark></li>
+      <li><mark>Location :virtual</mark></li>
+      <li><mark>Stipend:-</mark></li>
+      <li><mark>Start date:05/11/2023</mark></li>
+
+      <button class="button">view details</button>
+    </div>
+  </div>
+  <div class="box">
+    <div class="glass"></div>
+    <div class="content">
+      <h2><mark>JAVA PROGRAMMING INTERNSHIP PROGRAM</mark></h2>
+
+      <li><mark>Duration : 1 month/2months</mark></li>
+      <li><mark>Location :virtual</mark></li>
+      <li><mark>Stipend:-</mark></li>
+      <li><mark>Start date:05/11/2023</mark></li>
+
+      <button class="button">view details</button>
+    </div>
+  </div>
+
+</body>
+
+</html>

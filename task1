@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bindu Portfolio</title>
+</head>
+
+<body>
+  <h1>BINDU G PATTANASHETTY</h1>
+  <div>
+    <h2>ABOUT ME</h2>
+    <p>My name is Bindu, currently pursuing MCA final year at Brindavan college of engineering.
+      I enjoy <mark> drawing,cooking,listening to music .</mark>
+      As a beginner,I want to build my career with a well-known organization where i can apply my knowledge and skills
+      and
+      gain hands-on experience.
+      I am self motivated,and disciplined soul.I am always keen to <mark> up-skill myself by learning new things
+        whenever
+        i get a chance.</mark></p>
+  </div>
+  <div>
+    <h3>Interests</h3>
+    <ol>
+      <li>sports</li>
+      <li>Photography</li>
+      <li>Travelling</li>
+    </ol>
+  </div>
+  <div>
+    <h3>skills</h3>
+    <ul>
+      <li>Python</li>
+        <li>Java</li>
+        <li>C++</li>   
+    </ul>
+  </div>
+  <div>
+    <h2>Driver drowsiness detection Project</h2>
+    <p>The purpose of the drowsiness detection system is to aid in the prevention of accidents passenger and commercial
+      vehicles.</p>
+  </div>
+  <div>
+             <h2>Contact Information</h2>
+             <a href="https://github.com/">GITHUB</a>
+             <p>Email:bindupattanashetty@gmail.com</p>
+             <a href=https://www.linkedin.com/in/bindu-pattanashetty-3a8351285>LINKEDIN</a>
+
+
+  </div>
+</body>
+
+</html>
